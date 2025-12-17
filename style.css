@@ -13,3 +13,5 @@ body{
 }
 .squares{
     border: 100px solid #810044;
+    position: fixed;
+    transform: translate(-50%,-50%) rotate(0deg);
