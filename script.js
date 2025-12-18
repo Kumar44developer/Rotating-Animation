@@ -8,3 +8,6 @@ square.style.borderWidth = (index + 1) * 4 + "px";
         to{
                 transform:translate(-50%,-50%) rotate(${degree}deg);
                 border-radius: 50%;
+                  opacity:0.1;
+                border: 60px solid #b9ff73;
+            }
