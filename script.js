@@ -11,3 +11,8 @@ square.style.borderWidth = (index + 1) * 4 + "px";
                   opacity:0.1;
                 border: 60px solid #b9ff73;
             }
+               }`;
+
+        document.body.appendChild(animation);
+
+});
