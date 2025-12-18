@@ -5,3 +5,6 @@ square.style.borderWidth = (index + 1) * 4 + "px";
          const degree = (index + 1) * 360 *2;
         const animation = document.createElement("style");
         animation.innerHTML = `@keyframes rotate-${index}
+        to{
+                transform:translate(-50%,-50%) rotate(${degree}deg);
+                border-radius: 50%;
